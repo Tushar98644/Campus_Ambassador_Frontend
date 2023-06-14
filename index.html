@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page dark mode</title>
+    <style>
+        .btn {
+            width: 400px;
+            height: 30px;
+            margin-left: 25%;
+            background-color: #4461F2;
+            border-radius: 8.71px;
+            /* color: white; */
+            font-weight: bold;
+            font-family: barlow;
+            font-size: 1.2vw;
+
+        }
+
+        @media (max-width:100px) 
+        {
+            .alcher,.frame,.qr
+            {
+              position:relative;
+             
+
+            
+
+            }
+            .btn{
+                position: relative;
+                text-size-adjust:initial;
+                
+            }
+                
+        }
+
+       
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+</head>
+
+<body class="body"
+    style="background-color: black ;background-image: url(Images/login_page_dark.svg);width:100%;height: 100%;overflow: hidden;">
+
+    <div style="margin-top: -6vw;margin-left: -11vw;">
+
+        <div class="alcher" style="display:flex;justify-content: center;">
+            <img src="Images/Frame 16.png" style="margin-top: 8%;margin-left:11%;width:16%;margin-bottom: 5%;
+           ">
+        </div>
+        <!-- <div style="display: grid;grid-template-columns:0.5fr 2fr 5fr;"> -->
+        <div style="display: flex;">
+            <div style="display:block;margin-left: 5%;">
+                <div style="margin-left: 50%;"><img src="Images/Texte.png" style="width: 150%;" alt=""></div>
+
+                <div style="margin-left: 50%;margin-top: 2%;">
+                    <img src="Images/QR to be scanned at the venue for entry.png" alt="" style="width: 100%;">
+                </div>
+
+                <div style="margin-left: 45%;margin-top: 10%;
+                
+                "><img src="Images/Frame 19.png" alt="" style="width:110%" class="frame"></div>
+
+            </div>
+            <div style=" margin-left: 15%;display: block;">
+                <div>
+                    <img class="qr" src=" Images/QR Code.png" alt="" style="width: 65%;margin-left:23%">
+                </div>
+                 <button class="btn" style="width: 63%;text-decoration: none;height: 7%;"><a href="Images/QR Code.png" download="QR code"
+                    style="text-decoration: none;color:white">
+                    Download the generated QR</a></button>
+               
+                <img src="Images/Your QR pass is also sent to your registered IITG Outlook mail ID.png" alt=""
+                    style="margin-left: 30%;margin-top: 5%;width: 50%;">
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+    <!-- <div style="color: white;text-align: center;margin-top: 200px;font-size: 30px;margin-left: 200px;"><strong
+                style="opacity: 0.5"> Facing issues? </strong><a href=""
+                style="text-decoration: none;color:#4461F2;font-family:'Courier New', Courier, monospace ;">CONTACT
+                US</a></div> -->
+
+
+
+
+</body>
+
+</html>
